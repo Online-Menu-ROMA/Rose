@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rose</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    .download-link {
+        display: none;
+    }
+</style>
+</head>
+<body>
+    <h1>Rose</h1>
+    <p>Menu</p>
+    <a id="downloadLink" class="download-link" href="./assets/menu.pdf" download>Download File</a>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('downloadLink').click();
+        });
+    </script>
+</body>
+</html>
